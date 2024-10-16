@@ -1,10 +1,7 @@
-/* barChart.css */
 .bar-chart-container {
-    margin: 20px;
-  }
-  
-  .bar-chart-header {
-    text-align: center;
-    font-size: 24px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
   

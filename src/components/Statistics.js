@@ -31,7 +31,7 @@ const Statistics = ({ month }) => {
   }
 
   return (
-    <div>
+    <div className="statistics-container">
       <h3>Statistics for {month}</h3>
       <p>Total Sale Amount: ${stats.totalSaleAmount}</p>
       <p>Total Sold Items: {stats.totalSoldItems}</p>

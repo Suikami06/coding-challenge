@@ -20,12 +20,17 @@ const TransactionsBarChart = ({ month }) => {
   }, [month]);
 
   return (
-    <BarChart width={600} height={300} data={data}>
-      <XAxis dataKey="_id" />
-      <YAxis />
-      <Tooltip />
-      <Bar dataKey="count" fill="#82ca9d" />
-    </BarChart>
+    <div className="bar-chart-container">
+
+        <BarChart width={600} height={300} data={data}>
+          <XAxis dataKey="_id" />
+          <YAxis />
+          <Tooltip />
+          <Bar dataKey="count" fill="#82ca9d" />
+        </BarChart>
+
+    </div>
+    
   );
 };
 
